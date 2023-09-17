@@ -19,12 +19,10 @@
 
     <title>React App</title>
     <script type="text/javascript">
-      // hide HRM logs because they're distracting
-      // prettier-ignore
-      const log = console.log;
-      // prettier-ignore
+      const log = console.log
+
       console.log = (...args) =>
-        args[0]?.includes?.('[HMR]') ? null : log(...args);
+        args[0]?.includes?.('[HMR]') ? null : log(...args)
     </script>
   </head>
   <body>
