@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-class {
+  color: #c20a72;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Buttons {
+  background-color: #007bff;
+  background-size: cover;
+  font-family: roboto;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
